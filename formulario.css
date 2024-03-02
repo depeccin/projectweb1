@@ -1,0 +1,78 @@
+body {
+    font: 550 18px Arial;
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+header {
+    background-image: url(/public/assets/images/churrasco_header.jpg);
+    border-style:solid;
+    border-color: black;
+    width: 950px;
+    height: 260px;
+}
+
+header figcaption {
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 6%;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 3px 3px 1px #000;
+}
+
+.barra_lateral {
+    float: left;
+    width: 260px;
+    height: auto;
+}
+
+.barra_lateral li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.barra_lateral ul {
+    list-style-type: none;
+}
+
+.barra_lateral a {
+    color: white;
+    text-decoration: none;
+}
+
+.centro {
+    float: right;
+    width: 680px;
+    height: auto;
+}
+
+.centro form {
+    margin-top: 5%;
+    text-align: justify;
+    float: center;
+    padding: 10px;
+    line-height: 30px;
+    color:#fff;
+}
+
+footer {
+    text-align: center;
+}
+
+.quebra {
+    clear: both;
+}
+
+.rodape {
+    border-top: 1px #000 solid;
+    color:black;
+    padding: 5px;
+}
+
+.rodape p {
+    text-align: center;
+    color:#fff;
+}
